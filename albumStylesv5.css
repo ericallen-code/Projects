@@ -1,0 +1,100 @@
+/* CSS Styling Sheet */	
+	/* Font */
+	 @font-face {
+		font-family: Oswald;
+		src: url(https://fonts.google.com/specimen/Oswald)
+				}
+				
+		table {
+		border-spacing: 0px;
+		text-align: center;
+		width: 100%;
+			}
+		table,th,td {
+		border: 1px solid black;
+			}
+
+		th,td {
+		padding: 5px;
+			}
+		tr:first-of-type {
+		background: #9932CC;
+			}
+	/* Body Styling */
+	body {
+		font-family: Ostrich Sans Heavy, serif;
+		font-size: 18px;
+		padding: 40px;
+		text-align: center;
+		 }
+	
+	#album {
+		background: url("http://media.uaudio.com/blog/2011/06/glitch_drink.jpg") no-repeat;
+		margin: 0 auto;
+		height: 400px;
+		width: 325px;
+		   }
+	
+	header {
+		line-height: 0.5;
+		   }
+	
+	header h1 {
+		font-family: Oswald, monospace;
+		font=size: 2.8rem;
+		      }
+			  
+	a {
+		color: #ff0000;
+		text-decoration: none;
+	  }
+
+	a:visited {
+		color: #8A2BE2;
+			  }
+
+	a:hover {
+		background-color: black;
+		color: white;
+		text-decoration: underline;
+			}
+
+	a:active {
+		background-color: white;
+			 }
+	.container-fluid h2: first-of-type {
+		font-family: Oswald, monospace;
+		font-size: 2rem;
+						   }
+	ul {
+		font-style: italic;
+	     }
+		 
+	
+	table.table {
+		border: 1px solid black;
+		box-shadow: 0 2px 6px 2px #8A2BE2;
+		margin: 0 auto 10px;
+		width: 97%;
+		  }
+	
+	.table-responsive {
+		border: none;
+		  }
+	
+	.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+		background-color: #B56FD1;
+		  }
+	
+	thead {
+		background-color: #8A2BE2;
+		color: white;
+		  }
+	tbody {
+		background-color #8A2BE2;
+		font-style: italic;
+		  }
+	th, td {
+		padding: 5px;
+		   }
+/* End */
