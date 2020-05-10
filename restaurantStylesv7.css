@@ -1,0 +1,173 @@
+      @font-face {
+		font-family: Oswald;
+		src: url(https://fonts.google.com/specimen/Oswald)
+	  }
+	  body {
+        font-family: Comic Sans MS;
+		min-height: 400px;
+		margin-bottom: 100px;
+		clear: both;
+      }
+      header h1 {
+        font-family: Oswald, monospace;
+		text-align: center;
+        padding: 10px;
+      }
+	  
+/* Carousel Start */
+      .jk-slider{
+    width:100%;
+}
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+
+/* Carousel End */
+	  nav {
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        font-size: 0.8em;
+        padding: 20px;
+      }
+      nav a {
+        padding: 15px;
+      }
+      .center {
+        margin: 0px auto 100px auto;
+        padding: 30px;
+        max-width: 1100px;
+      }
+      table {
+        text-align: center;
+		margin-bottom: -60px;
+      }
+	  
+	  <!-- Menu Table START-->
+	  #table-container {
+	  }
+	  table {
+		text-align: center;
+	  }
+      th {
+        font-family: Comic Sans MS;
+        font-size: 1.5rem;
+      }
+	  <!-- Table END -->
+	  
+      th, td {
+        padding: 11px;
+      }
+      footer {
+        background: #FFFFFF;
+        border-top: 2px solid black;
+        font-size: 1.05em;
+        font-weight: bold;
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+      }
+   
+    nav {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      font-size: 0.8em;
+      padding: 20px;
+      text-align: left;
+	}
+	
+	nav a {
+      padding: 15px;
+    }
+    a {
+      color: #FF0000;
+      text-decoration: none;
+	}
+	
+    a:visited {
+      color: #FF0000;
+    }
+
+    a:hover {
+      color: #000000;
+      font-weight: bold;
+    }
+
+    a:active {
+      position: relative;
+      top: 2px;
+      text-decoration: none;
+    }
+	
+	/*Menu page*/
+	#menu-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+	}
+	#menu-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	}
+	}
+   
+    .footer {
+      position: relative;
+	  bottom: 0px;
+	  background-color: white;
+	  border-top: 2px solid black;
+	  color: solid black;
+	  font-weight: bold;
+	  font-size: 1.05rem;
+	  line-height: 0.9rem;
+	  text-align: vertical-center;
+	  width: 66.9%;
+	  margin: 0 auto
+	}
